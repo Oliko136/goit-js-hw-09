@@ -15,6 +15,8 @@ const { datetimePicker, startBtn, daysEl, hoursEl, minutesEl, secondsEl } = refs
 
 startBtn.disabled = true;
 
+let endtime = null;
+
 const options = {
   enableTime: true,
   time_24hr: true,
